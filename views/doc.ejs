@@ -1,0 +1,29 @@
+<%-include('header')-%>
+<body>
+  
+    <div class="information">
+        
+            <h1>Welcome to Weather Forecast by Tim </h1>
+            <div class="lookat">
+                <form action="/" method="POST">
+                    
+                    <input type="text" placeholder="Search Zipcode" name="nameSearch">
+                    <button type="submit" name="btn">Search</button>
+                </form>
+            </div>
+            <h2><%=location%></h2>
+
+            <ul>
+                <li><%=detail%></li>
+                <li>
+                    <form action="/detail" method="POST">
+                        <button type="submit" name="btn">Detail</button>
+                    </form>
+                </li>
+            </ul>
+        
+            
+    </div>
+    
+
+<%-include('footer')-%>

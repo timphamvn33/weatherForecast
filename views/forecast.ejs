@@ -1,0 +1,91 @@
+<%-include('header')-%>
+<body>
+    <div class="home">
+       <a href="/">Home</a>
+    </div>
+    <div class="information">
+        
+            <h1>The weather at </h1>
+            <h2><%=location%></h2>
+            <h2><%=day0%></h2>
+
+            <ul>
+
+                <li><strong><%=temp%></strong></li>
+                <li><%=condition%></li>
+                <li><img src="https://openweathermap.org/img/wn/<%=icon%>@2x.png" alt=""></li>
+                <li>
+                    <small><%=high%></small>
+                    &nbsp
+                    <small><%=low%></small>
+                </li>
+            </ul>
+        
+        
+    </div>
+    <div class="body_forecast">
+        <div class="date_container">
+            <h1><%=day1%></h1>
+            <ul>
+                <li><img src="https://openweathermap.org/img/wn/<%=icon1%>@2x.png" alt=""></li>
+                <li><%=condition1%></li>
+                <li><%=max1%></li>
+                <li><%=min1%></li>
+                
+            </ul>
+        </div>
+        <div class="date_container">
+            <h1><%=day2%></h1>
+            <ul>
+                <li><img src="https://openweathermap.org/img/wn/<%=icon2%>@2x.png" alt=""></li>
+                <li><%=condition2%></li>
+                <li><%=max2%></li>
+                <li><%=min2%></li>
+                
+            </ul>
+        </div>
+        <div class="date_container">
+            <h1><%=day3%></h1>
+            <ul>
+                <li><img src="https://openweathermap.org/img/wn/<%=icon3%>@2x.png" alt=""></li>
+                <li><%=condition3%></li>
+                <li><%=max3%></li>
+                <li><%=min3%></li>
+                
+            </ul>
+        </div>
+        <div class="date_container">
+            <h1><%=day4%></h1>
+            <ul>
+                <li><img src="https://openweathermap.org/img/wn/<%=icon4%>@2x.png" alt=""></li>
+                <li><%=condition4%></li>
+                <li><%=max4%></li>
+                <li><%=min4%></li>
+                
+            </ul>
+        </div>
+        <div class="date_container">
+            <h1><%=day5%></h1>
+            <ul>
+                <li><img src="https://openweathermap.org/img/wn/<%=icon5%>@2x.png" alt=""></li>
+                <li><%=condition5%></li>
+                <li><%=max5%></li>
+                <li><%=min5%></li>
+                
+            </ul>
+        </div>
+        <div class="date_container">
+            <h1><%=day6%></h1>
+            <ul>
+                <li><img src="https://openweathermap.org/img/wn/<%=icon6%>@2x.png" alt=""></li>
+                <li><%=condition6%></li>
+                <li><%=max6%></li>
+                <li><%=min6%></li>
+                
+            </ul>
+        </div>
+    </div>
+    
+    
+
+<%-include('footer')-%>
